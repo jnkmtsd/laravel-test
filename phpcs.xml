@@ -3,14 +3,14 @@
     <description>PSR12 compliant rules and settings for Laravel</description>
 
     <arg name="extensions" value="php" />
-    <arg value="ps"/>
+    <arg value="ps" />
 
     <rule ref="PSR12" />
     <rule ref="PSR1.Methods.CamelCapsMethodName">
         <exclude-pattern>./tests</exclude-pattern>
     </rule>
     <rule ref="Generic.Files.LineLength">
-        <property name="lineLimit" value="160"/>
+        <property name="lineLimit" value="160" />
     </rule>
 
     <file>.</file>
