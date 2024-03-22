@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"phpsab.executablePathCBF": "./vendor/bin/phpcbf",
+		"phpsab.executablePathCS": "./vendor/bin/phpcs",
+		"phpsab.standard": "phpcs.xml",
+	},
+}
